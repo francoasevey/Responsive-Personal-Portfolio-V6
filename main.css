@@ -12,4 +12,15 @@
     --color-white: #ffffff;
     --color-text: #676767;
     --color-border: #373737;
+
+    --ff-body: "Space Grotesk", sans-serif;
+
+    --fs-sm: 1.4rem;
+    --fs-md: 1.6rem;
+    --fs-lg: 2rem;
+    --fs-xl: 2.4rem;
+    --fs-xxl: 3.2rem;
+    --fs-biggest: clamp(3rem, 8vw, 5rem);
+
+    
 }
