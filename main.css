@@ -37,3 +37,21 @@
     --transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
     --width-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+h1,h2,h3,h4{
+    color: var(--color-white);
+    font-weight: var(--fw-bold);
+}
+html{
+    font-size: 64.5%;
+    scroll-behavior: smooth;
+}
+body,h1,h2,h3,ul, p{
+    margin: 0;
+    padding: 0;
+}
