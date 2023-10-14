@@ -77,3 +77,34 @@ body{
     margin-top: var(--height-header);
     line-height: 1.2;
 }
+.container{
+    width: 90%;
+    max-width: var(--width-container);
+    margin: auto;
+}
+.section{
+    padding: 5rem 0;
+}
+.section_header{
+    margin: 8rem 0;
+    text-align: center;
+}
+.section_title{
+    font-size: var(--fs-xl);
+    margin-bottom: 0.5rem;
+}
+.section_subtitle{
+    font-weight: var(--fw-bold);
+    font-size: var(--fs-md);
+    position: relative;
+}
+.section_subtitle::after{
+    position: absolute;
+    content: "";
+    width: 50%;
+    height: 0.5rem;
+    background-color: var(--color-primary);
+    bottom: -1.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
