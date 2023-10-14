@@ -22,5 +22,18 @@
     --fs-xxl: 3.2rem;
     --fs-biggest: clamp(3rem, 8vw, 5rem);
 
+    --fw-regular: 400;
+    --fw-sm: 500;
+    --fw-sm: 600;
+    --fw-bold: 700;
+
+    --zindex-menu: 1000;
+    --zindex-fixed: 1010;
+
+    --width-container: 98rem;
+    --height-header: 98rem;
+    --height-header-scroll: 8rem;
     
+    --transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    --width-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
