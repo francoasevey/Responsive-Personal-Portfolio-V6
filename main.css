@@ -51,7 +51,29 @@ html{
     font-size: 64.5%;
     scroll-behavior: smooth;
 }
-body,h1,h2,h3,ul, p{
+body,h1,h2,h3,h4,ul, p{
     margin: 0;
     padding: 0;
+}
+ul{
+    list-style-type: none;
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+a{
+    text-decoration: none;
+    color: var(--color-text);
+}
+main{
+    overflow: hidden;
+}
+body{
+    background-color: var(--color-bg-primary);
+    font-family: var(--ff-body);
+    font-size: var(--fs-md);
+    color: var(--color-text);
+    margin-top: var(--height-header);
+    line-height: 1.2;
 }
