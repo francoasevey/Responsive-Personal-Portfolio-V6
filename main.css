@@ -180,6 +180,7 @@ body{
     color: var(--color-primary);
 }
 .nav_toggle{
+    display: none;
     font-size: var(--fs-xl);
     color: var(--color-white);
     cursor: pointer;
@@ -187,4 +188,33 @@ body{
 }
 .nav_toggle:hover{
     color: var(--color-primary);
+}
+@media screen and (max-width: 968px) {
+    .nav_list{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 4rem;
+    }
+    .nav_menu{
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: var(--color-bg-primary);
+        display: none;
+        justify-content: center;
+        transition: var(--transition);
+    }
+    .nav_menu--open{
+        display: flex;
+    }
+    .nav_toggle{
+        display: block;
+    }
+    .nav_brand,
+    .nav_toggle{
+        z-index: var(--zindex-fixed);
+    }
 }
