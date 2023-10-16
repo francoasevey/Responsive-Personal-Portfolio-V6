@@ -31,11 +31,11 @@
     --zindex-fixed: 1010;
 
     --width-container: 98rem;
-    --height-header: 98rem;
+    --height-header: 10rem;
     --height-header-scroll: 8rem;
     
     --transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
-    --width-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    --box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 *,

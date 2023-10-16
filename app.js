@@ -4,5 +4,5 @@ navItem = document.querySelectorAll(".nav_item"),
 header = document.getElementById("header");
 
 navToggle.addEventListener("click", () => {
-    navMenu.classList.toggle("nav_menu-open");
+    navMenu.classList.toggle("nav_menu--open");
 })
