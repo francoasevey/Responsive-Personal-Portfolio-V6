@@ -120,7 +120,7 @@ body{
     transition: var(--transition);
 }
 .btn-primary{
-    background-color: var(--color-bg-primary);
+    background-color: var(--color-primary);
     color: var(--color-white);
 }
 .btn-primary:hover{
