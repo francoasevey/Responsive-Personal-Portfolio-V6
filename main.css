@@ -292,3 +292,23 @@ body{
     text-align: center;
     margin-bottom: 3rem;
 }
+.skills_wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.skills_content{
+    background-color: var(--color-bg-secondary);
+    box-shadow: var(--box-shadow);
+    padding: 3rem;
+}
+.skills_item{
+    margin-bottom: 1rem;
+}
+.skills_subtitle{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.skills_item i{
+    color: var(--color-primary);
+}
