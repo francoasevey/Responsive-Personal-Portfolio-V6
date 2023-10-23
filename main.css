@@ -312,3 +312,30 @@ body{
 .skills_item i{
     color: var(--color-primary);
 }
+
+.qualification_wrapper{
+    margin-bottom: 5rem;
+}
+.qualification_content{
+    row-gap: 5rem;
+}
+.qualification_name{
+    display: flex;
+    column-gap: 1rem;
+    font-size: var(--fs-lg);
+    margin-bottom: 5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--color-border);
+}
+.qualification_title{
+    font-size: var(--fs-md);
+    font-weight: var(--fw-medium);
+    margin-bottom: 1rem;
+}
+.qualification_description{
+    margin-bottom: 2rem;
+}
+.qualification_date{
+    font-size: var(--fs-sm);
+    font-weight: var(--fw-semibold);
+}
