@@ -339,3 +339,16 @@ body{
     font-size: var(--fs-sm);
     font-weight: var(--fw-semibold);
 }
+
+.qualification_footer{
+    border-top: 1px solid var(--color-border);
+    margin-top: 10rem;
+    padding-top: 4rem;
+    text-align: center;
+}
+.qualification_footer-text{
+    font-size: var(--fs-xl);
+    font-weight: var(--fw-bold);
+    color: var(--color-white);
+    margin-bottom: 2rem;
+}
