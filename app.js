@@ -32,4 +32,20 @@ const testimonialSlide = new Swiper(".testimonial_wrapper", {
     effect: "coverflow",
     grabCursor: true,
     slidesPerView: 1,
-})
+    coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slidesShadows: true,
+    },
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+    breakpoints: {
+        520: {
+            slidesPerView: "auto",
+        },
+    },
+});
