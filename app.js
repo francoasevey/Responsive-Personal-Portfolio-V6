@@ -24,3 +24,12 @@ function changeIcon() {
         navToggle.classList.replace("ri-close-line", "ri-menu-3-line");
     }
 }
+
+const testimonialSlide = new Swiper(".testimonial_wrapper", {
+    loop: true,
+    spaceBetween: 30,
+    centeredSlides: true,
+    effect: "coverflow",
+    grabCursor: true,
+    slidesPerView: 1,
+})
