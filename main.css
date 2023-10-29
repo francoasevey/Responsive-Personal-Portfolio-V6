@@ -451,3 +451,20 @@ body{
 .testimonial_wrapper .swiper-pagination-bullet-active{
     background-color: var(--color-primary);
 }
+
+.contact_wrapper{
+    border-top: 1px solid var(--color-border);
+    padding-top: 3rem;
+    text-align: center;
+}
+.contact_title{
+    font-size: var(--fs-xxl);
+    margin-bottom: 2rem;
+}
+.contact_content{
+    max-width: 45rem;
+    margin: auto;
+}
+.contact_description{
+    margin-bottom: 2rem;
+}
