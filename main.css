@@ -468,3 +468,42 @@ body{
 .contact_description{
     margin-bottom: 2rem;
 }
+
+.footer{
+    background-color: var(--color-bg-footer);
+    padding: 5rem 0;
+}
+.footer_wrapper{
+    border-bottom: 1px solid var(--color-bg-secondary);
+    padding: 5rem 0;
+    gap: 5rem;
+}
+.footer_title{
+    font-size: var(--fs-lg);
+    margin-bottom: 2rem;
+}
+.footer_social-list{
+    display: flex;
+    gap: 3rem;
+}
+.footer_social-link{
+    font-size: 2rem;
+    color: var(--color-white);
+    transition: var(--transition);
+}
+.footer_contact{
+    font-size: var(--fs-lg);
+    color: var(--color-white);
+    font-weight: var(--fw-bold);
+    text-decoration: underline;
+    transition: var(--transition);
+}
+.footer_social-link:hover,
+.footer_contact:hover{
+    color: var(--color-primary);
+}
+.footer_copyright{
+    font-size: var(--fs-sm);
+    text-align: center;
+    padding-top: 3rem;
+}
